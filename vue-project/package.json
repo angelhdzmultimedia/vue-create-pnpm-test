@@ -6,12 +6,11 @@
     "build": "run-p type-check build-only",
     "preview": "vite preview --port 4173",
     "build-only": "vite build",
-    "type-check": "vue-tsc --noEmit",
-    "vuetify:install": "pnpm i vue@latest & vue add vuetify@latest"
+    "type-check": "vue-tsc --noEmit"
   },
   "dependencies": {
     "pinia": "^2.0.21",
-    "vue": "^3.2.40",
+    "vue": "^3.2.38",
     "vue-router": "^4.1.5"
   },
   "devDependencies": {
